@@ -1,0 +1,692 @@
+/*+++++++++++++++++++++++++++++
+	project name:E-comerce site
+	project author: Arman hossain
+	Email:armanh686@gmail.com
+	contract:01838472540
+		section of this project:-
+			1.Header section
+			2.Slider section
+			3.Banner section
+			4.Product section
+			5.Middle back_image section
+			6.Keurig section
+			7.Testimonoial section
+			8.Member section
+			9.News section
+			10.Summer section
+			11.Newsletter section
+			12.Footer section
+++++++++++++++++++++++++++++++*/
+/*++++++ Base css start ++++*/
+*{
+padding: 0;
+margin: 0;
+border: none;
+outline: none;
+box-sizing: border-box;
+}
+body{
+width: 100%;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+margin: 0 auto;
+background: #f5f5f5;
+}
+ul{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+a{
+text-decoration: none;
+color: #fff;
+}
+h1, h2, h3, h4, h5, h6{
+padding: 0;
+margin: 0;
+text-align: center;
+}
+/*++++++ Base css end ++++*/
+/*++++++ common css start ++++*/
+.container{
+margin: 0 80px;
+}
+/*++++++ common css end ++++*/
+/*+++++++  font awwesome ++++++*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+/*++++++ header section start ++++*/
+header{
+padding: 20px 0px;
+background-color: #000;
+color: #fff;
+}
+.logo{
+text-transform: uppercase;
+}
+.top_bar{
+display: flex;
+justify-content: space-between;
+}
+.navbar ul{
+display: flex;
+justify-content: space-between;
+}
+.navbar ul li{
+padding: 0px 15px;
+text-transform: uppercase;
+}
+.home,.two,.number,.stext{
+color: red;
+}
+.setting ul{
+display: flex;
+justify-content: space-between;
+}
+.setting ul li{
+padding: 0px 15px;
+text-transform: uppercase;
+}
+/*++++++ header section end ++++*/
+/*++++++ slider section start ++++*/
+.slider{
+position: relative;
+width: 100%;
+/*padding: 160px 0px;*/
+padding-left: 400px;
+margin: 30px 0px;
+}
+.items img{
+	height: 450px;
+}
+.slider-text{
+font-size: 12px;
+margin-top: 6px;
+}
+input[type=submit]{
+padding: 15px;
+margin-top: 10px;
+border-radius: 20px;
+}
+.icon-left{
+position: absolute;
+margin-left: 10px;
+left: 0;
+top: 190px;
+}
+.icon-right{
+position: absolute;
+margin-right: 10px;
+right: 0;
+top: 190px;
+}
+/*++++++ slider section end ++++*/
+/*++++++ banner section start ++++*/
+.main_banner{
+position: relative;
+width: 100%;
+height: 600px;
+padding: 0;
+margin: 0;
+}
+.sb1{
+width: 24%;
+height: 586px;
+position: absolute;
+background: #e5e5e5;
+top: 0;
+left: 0;
+}
+.sb1p{
+padding-left: 15px;
+}
+p.sbtt{
+text-transform: uppercase;
+text-align: center;
+padding: 50px 0px;
+}
+p.sbtb{
+padding: 20px 0px;
+color: #f7f375;
+}
+p.sbmt{
+padding: 10px 0px;
+color: #f8f8f8;
+font-size: 12px;
+}
+.sb1b{
+padding: 10px;
+background: #c53f2d;
+color: #f8f8f8;
+}
+.awesome{
+width: 48%;
+height: 285px;
+position: absolute;
+background: #ffffff;
+top: 0;
+left: 26%;
+text-transform: uppercase;
+}
+.awe_t{
+text-align: center;
+padding: 20px 0px;
+}
+.awe_tb{
+font-size: 1.3em;
+font-weight: bold;
+}
+.awe-btn{
+background: #fef838;
+}
+.awe_b{
+text-align: center;
+padding: 50px 0px;
+color: #333333;
+}
+.impresa{
+width: 24%;
+height: 285px;
+position: absolute;
+background: #dadada;
+top: 0;
+left: 76%;
+text-transform: uppercase;
+text-align: center;
+}
+.imp_t{
+padding: 60px 0px;
+}
+.imp_b{
+padding-top: 60px;
+}
+.imp_bm{
+font-size: 12px;
+}
+.canbera{
+width: 23%;
+height: 285px;
+position: absolute;
+background: #e5e5e5;
+top: 300px;
+left: 26%;
+}
+.can_left{
+padding-left: 20px;
+padding-top: 50px;
+}
+.can_red{
+color: #cd9357;
+font-size: 1.3em;
+}
+.can_s{
+padding: 15px 0px;
+}
+.can_btn{
+background: #ffffff;
+text-transform: uppercase;
+}
+.can_right{
+padding-left: 140px;
+padding-top: 20px;
+text-transform: uppercase;
+}
+.sell{
+width: 23%;
+height: 285px;
+position: absolute;
+background: #e5e5e5;
+top: 300px;
+left: 51%;
+}
+.sell>img{
+margin-left: 40px;
+position: relative;
+height: 40%;
+}
+.sell_tt{
+position: absolute;
+top: 10px;
+left: 55px;
+text-transform: uppercase;
+}
+.sell2{
+padding: 15px 0px 15px 20px;
+}
+.sell_btn {
+background: #4f2e1b;
+color: #fff;
+text-transform: uppercase;
+margin-left: 50px;
+}
+.sell_right{
+margin:20px 0px 0px 140px;
+text-transform: uppercase;
+}
+.commercial{
+width: 24%;
+height: 285px;
+position: absolute;
+background: #e5e5e5;
+top: 300px;
+left: 76%;
+text-transform: uppercase;
+}
+.com_top{
+padding: 50px 0px 20px 30px;
+}
+.bold{
+font-weight: bold;
+}
+.com_red{
+color: red;
+padding:  10px 0px;
+}
+.com_btn{
+background: #333333;
+color: #fff;
+text-transform: uppercase;
+}
+.com_right{
+margin: 40px 0px 0px 150px;
+}
+/*++++++ banner section end ++++*/
+/*++++++ product section start ++++*/
+.product{
+padding: 40px 0px;
+}
+.pt_top, .pt_bold{
+text-align: center;
+}
+.pt_bold{
+padding: 10px 0px;
+text-transform: uppercase;
+}
+.line{
+width: 80px;
+height: 5px;
+background: red;
+margin: 15px auto;
+}
+.product_image{
+display: flex;
+}
+.pro{
+flex:1;
+height: 400px;
+background: #fff;
+opacity: 1;
+margin-right: 10px;
+}
+.pro:last-child{
+margin-right: 0;
+}
+.pro_txt{
+text-align: center;
+text-transform: uppercase;
+padding-top: 40%;
+padding-bottom: 60%;
+}
+.yellow{
+padding-left: 15px;
+color: #e2bc0a;
+}
+.icon_padding{
+display: inline;
+}
+.gray{
+color: #ccc;
+}
+.txt{
+font-size: 11px;
+padding: 10px 15px;
+line-height: 15px;
+}
+.red{
+color: red;
+}
+.inpt>input[type=submit]{
+margin:30px 20px;
+padding: 10px;
+text-transform: uppercase;
+border:1px solid #ddd;
+}
+.btn_red{
+background: #e12121;
+color: #fff;
+}
+/*++++++ product section end ++++*/
+/*start middle back_image section*/
+.middle_image{
+display: flex;
+background-image: url('../img/backgroundt.png');
+margin-top: 20px;
+color: #fff;
+}
+.mid_height{
+flex:1;
+height: 300px;
+padding: 60px 20px;
+}
+.freetop{
+font-size: 13px;
+text-align: left;
+}
+.freebottom{
+font-size: 12px;
+padding: 15px 0px;
+}
+.vertical_line{
+display: flex;
+border-right: 2px solid #fff;
+}
+.live_support>.vertical_line{
+border:none;
+}
+.right{
+padding: 0px 15px;
+}
+.right>a{
+text-decoration: underline;
+}
+/*end middle back_image section*/
+/*start keurig section*/
+.keurig{
+display: flex;
+background-image: url('../img/kureig.png');
+padding: 80px 100px;
+margin-bottom: 50px;
+}
+.ku_height{
+flex:1;
+padding: 60px 20px;
+height: 400px;
+}
+.kurig_top{
+text-align: left;
+font-size: 1.5em;
+font-weight: bold;
+}
+.kurig_btn{
+background: #fed638;
+}
+.kurig_pic{
+height: 300px;
+background: #e9e9e9;
+text-transform: uppercase;
+padding-top:24%;
+}
+.kurig_btm>li{
+list-style: disc;
+line-height: 2em;
+}
+.kurig_txt{
+padding: 20px 0px;
+}
+.uper{
+text-transform: uppercase;
+}
+.money{
+text-transform: uppercase;
+padding: 15px 0px;
+font-size: 1.5em;
+}
+.money>.red{
+font-weight: bold;
+}
+.icon_img{
+text-align: center;
+margin-top: 10px;
+}
+.first{
+color: #363636;
+}
+.second{
+color: #d73b49;
+}
+.third{
+color: #474bd9;
+}
+.four{
+color: #1c7f1e;
+}
+.five{
+color: #cbcbcb;
+}
+/*end keurig section*/
+/*start testimonial section*/
+.comment{
+display: flex;
+height: 300px;
+}
+.test_part{
+flex:1;
+height: 150px;
+background: #fff;
+margin-right: 10px;
+padding: 15px;
+}
+.test_part:last-child{
+margin: 0px;
+}
+.partition{
+display: flex;
+}
+.big_icon{
+font-size: 50px;
+margin-right: 10px;
+color: #e9e9e9;
+}
+.sara{
+text-transform: uppercase;
+text-align: left;
+margin-top: 12px;
+}
+.testimonial{
+background: url(../img/cup.png) no-repeat;
+background-size: 100%;
+opacity: .6;
+}
+/*end testimonial section*/
+/* start members section */
+.partition_part{
+height: 300px;
+background-color: #ccc;
+padding: 100px 50px;
+}
+.applie,.discount{
+text-align: left;
+color: #fff;
+}
+.applie{
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+.member_left{
+float: left;
+width: 50%;
+}
+.member_right{
+float: right;
+width: 50%;
+text-align: center;
+}
+.yellow_btn{
+background-color: #fed638;
+color: #000;
+}
+.white_btn{
+background-color: #fff;
+color: #000;
+}
+.mem_btn>input[type=submit]{
+padding: 10px 20px;
+}
+/* end members section */
+/*start news section*/
+.news_top{
+margin: 30px 0px;
+}
+.img_blog{
+display: flex;
+position: relative;
+}
+.blog{
+flex:1;
+height: 300px;
+background-color: #e9e9e9;
+text-transform: uppercase;
+padding-top: 140px;
+background-image:  url(../img/blog_img.png);
+background-repeat: no-repeat;
+background-position: bottom left;
+}
+.m_right{
+margin-right: 20px;
+}
+.blog_bac_img{
+margin-top: 65px;
+margin-left: 20px;
+}
+.back_txt{
+text-transform: capitalize;
+color: #fff;
+}
+.po_left{
+position: absolute;
+left: 0;
+top: 48%;
+margin-left: 10px;
+font-size: 30px;
+color: #bababa;
+}
+.po_right{
+position: absolute;
+right: 0;
+top: 48%;
+margin-right: 10px;
+font-size: 30px;
+color: #bababa;
+}
+/*end news section*/
+/* start summer section */
+.summer{
+display: flex;
+}
+.summer_part{
+flex:1;
+height: 250px;
+}
+.summer_head{
+padding: 25px 0px;
+font-size: 12px;
+text-align: left;
+}
+.summer_txt{
+margin-bottom: 30px;
+}
+.sum_txt_clr{
+color: #888;
+}
+.sum_txt_red{
+color: #e56161;
+}
+/* end summer section */
+/*start newsletter section*/
+.newsletter{
+height: 80px;
+background: #000;
+color: #fff;
+}
+.news_part{
+display: flex;
+justify-content: space-between;
+}
+input[type=email]{
+background: #222;
+color: #fff;
+padding: 10px;
+}
+.news_btn{
+padding: 9px;
+background: #e12020;
+font-size: 15px;
+}
+.t_yellow{
+color: #fee902;
+}
+.news_right_txt input[type=submit]{
+padding: 8px 15px;
+background: #63b237;
+color: #fff;
+}
+.news_left{
+margin-top: 20px;
+}
+.news_right{
+margin-top: 15px;
+}
+/*end newsletter section*/
+/*start footer section*/
+footer{
+height: 350px;
+background: #222;
+border-bottom: 1px solid #444;
+}
+.footer_left{
+float: left;
+width: 35%;
+}
+.footer_right{
+float: right;
+width: 62%;
+}
+.footer_partition{
+display: flex;
+}
+.footer_part{
+flex:1;
+}
+.about_top{
+text-align: left;
+text-transform: uppercase;
+color: #f5f5f5;
+margin-bottom: 30px;
+font-size:1em;
+}
+.about_middle{
+font-size: .8em;
+margin-bottom: 50px;
+color: #727272;
+}
+.d_inline>ul li{
+display: inline;
+margin-right: 15px;
+}
+.common_color {
+color: #727272;
+}
+.common_color li{
+color: #727272;
+margin-bottom: 8px;
+font-size: .8em;
+}
+.main_footer{
+height: 300px;
+padding: 40px 0px 100px;
+border-bottom: 1px solid #444;
+}
+.footer_last{
+display: flex;
+justify-content: space-between;
+
+}
+.footer_last{
+	margin-top:12px;
+}
+.ftt_color{
+	color: #f5f5f5;
+}
+.footer_last_txt{
+	font-size: .8em;
+}
+/*end footer section*/
