@@ -93,7 +93,14 @@ position: relative;
 width: 100%;
 /*padding: 160px 0px;*/
 padding-left: 400px;
-margin: 30px 0px;
+}
+.backimg{
+	background: url('../slider_img/slider6.jpg') no-repeat;
+	background-size: cover;
+	height: 450px;
+}
+.slider-t-top{
+	padding-top: 20px;
 }
 .items img{
 	height: 450px;
@@ -106,18 +113,6 @@ input[type=submit]{
 padding: 15px;
 margin-top: 10px;
 border-radius: 20px;
-}
-.icon-left{
-position: absolute;
-margin-left: 10px;
-left: 0;
-top: 190px;
-}
-.icon-right{
-position: absolute;
-margin-right: 10px;
-right: 0;
-top: 190px;
 }
 /*++++++ slider section end ++++*/
 /*++++++ banner section start ++++*/
